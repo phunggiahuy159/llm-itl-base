@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../LLM-ITL")
+sys.path.append("../llm-itl-base")
 import argparse
 import os
 from topic_models.nvdm import FeatDataset

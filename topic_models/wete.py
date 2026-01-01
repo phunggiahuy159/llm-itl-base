@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../LLM-ITL")
+sys.path.append("../llm-itl-base")
 import torch
 import numpy as np
 import argparse

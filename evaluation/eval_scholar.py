@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../LLM-ITL")
+sys.path.append("../llm-itl-base")
 import argparse
 from utils import sparse2dense
 from topic_models.scholar import load_data_scholar

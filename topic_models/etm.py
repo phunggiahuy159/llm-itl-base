@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../LLM-ITL")
+sys.path.append("../llm-itl-base")
 import os.path
 from topic_models.embedded_topic_model.models.etm import ETM
 import argparse

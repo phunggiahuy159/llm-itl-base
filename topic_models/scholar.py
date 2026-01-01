@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../LLM-ITL")
+sys.path.append("../llm-itl-base")
 from optparse import OptionParser
 from topic_models.SCHOLAR.scholar import Scholar
 from utils import *

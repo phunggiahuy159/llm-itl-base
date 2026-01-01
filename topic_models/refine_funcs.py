@@ -2,7 +2,7 @@
 Common functions shared by NTMs
 '''
 import sys
-sys.path.append("../LLM-ITL")
+sys.path.append("../llm-itl-base")
 import numpy as np
 import os
 import torch

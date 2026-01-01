@@ -1,5 +1,5 @@
 import sys
-sys.path.append("../LLM-ITL")
+sys.path.append("../llm-itl-base")
 from tqdm import tqdm
 from torch import nn
 from torch.nn import functional as F

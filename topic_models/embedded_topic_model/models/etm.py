@@ -1,6 +1,6 @@
 from __future__ import print_function
 import sys
-sys.path.append('../LLM-ITL')
+sys.path.append('../llm-itl-base')
 import numpy as np
 import os
 import math
