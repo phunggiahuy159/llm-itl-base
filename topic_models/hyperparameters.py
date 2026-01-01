@@ -1,5 +1,5 @@
 # [n_epochs, learning rate, batch size]
-hyperparamters = {'NVDM_20News':[10, 0.001, 200], # 250
+hyperparamters = {'NVDM_20News':[250, 0.001, 200], # 250
                   'NVDM_R8':[250, 0.0005, 200],
                   'NVDM_DBpedia':[250, 0.001, 200],
                   'NVDM_AGNews':[250, 0.0005, 200],

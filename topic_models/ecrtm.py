@@ -27,7 +27,7 @@ def parse_args():
     # llm
     parser.add_argument('--warmStep', default=0, type=int)
     parser.add_argument('--llm_itl', action='store_true')
-    parser.add_argument('--llm', type=str, default='meta-llama/Meta-Llama-3-8B-Instruct')
+    parser.add_argument('--llm', type=str, default='mistralai/Mistral-7B-Instruct-v0.3')
     parser.add_argument('--llm_step', type=int, default=50)  # the number of epochs for llm refine
     parser.add_argument('--refine_weight', type=float, default=200)
     parser.add_argument('--instruction', type=str, default='refine_labelTokenProbs',
