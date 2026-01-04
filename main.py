@@ -11,7 +11,7 @@ parser.add_argument('--random_seed', type=int, default=1)
 parser.add_argument('--eval_step', type=int, default=2)
 
 parser.add_argument('--llm_itl', action='store_true', help='Use LLM or not')
-parser.add_argument('--inference_bs', type=int, default=100) # set this number based on your GPU memory
+parser.add_argument('--inference_bs', type=int, default=1) # set this number based on your GPU memory
 parser.add_argument('--llm_step', type=int, default=50) # the number of epochs for llm refine
 args = parser.parse_args()
 
