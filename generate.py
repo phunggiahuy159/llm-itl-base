@@ -338,11 +338,11 @@ if __name__ == '__main__':
 
     # model
 
-    # model_name = 'meta-llama/Meta-Llama-3-8B-Instruct'
+    model_name = 'meta-llama/Meta-Llama-3-8B-Instruct'
     # model_name = 'mistralai/Mistral-7B-Instruct-v0.3'
     # model_name = '01-ai/Yi-1.5-9B-Chat'
     # model_name = 'microsoft/Phi-3-mini-128k-instruct'
-    model_name = 'Qwen/Qwen1.5-32B-Chat'
+    # model_name = 'Qwen/Qwen1.5-32B-Chat'
 
     # load model and tokenizer
     model = AutoModelForCausalLM.from_pretrained(model_name,
